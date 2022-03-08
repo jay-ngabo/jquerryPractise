@@ -3,5 +3,16 @@
 }
 #para {
     color: rgb(219, 55, 55);
+    
 
 }
+.image2{
+    display: none;
+}
+.walrus-hidden img {
+    display: none;
+
+}
+/* .walrus-hidden img {
+    display: ;
+} */
