@@ -9,15 +9,13 @@ $(document).ready(function(){
         alert('this is an image');
     }
     )
+    $('h2').click(function(){
+        $('.image2').show();
+    }
+    )
+    $('h3').click(function(){
+        $('#hide').hide();
+        $('#show').show();
+    }
+    )
 });
-// jQuery('#h1').click(function(){
-//     alert("This is a heading tag")
-//   });
-
-//   jQuery('p').click(function(){
-//     alert("This is a paragraph")
-//   });
-
-//   jQuery('img').click(function(){
-//     alert("This is an image")
-//   });
